@@ -134,7 +134,7 @@
 
         <i>To use the new rubric (the one for the AP exam), scroll to the bottom of the page</i>
         <br>
-        <i>Version 1.2.2 - by Tyler/@coredoesdev</i>
+        <i>Version 1.3.0 - by Tyler/@coredoesdev</i>
 
         <hr>
 
@@ -219,6 +219,16 @@
 
             </tbody>
         </table>
+
+        <p>
+            <b>Describes:</b> Accurately describes the content of the document. Quotes are insufficient to earn this point.
+        </p>
+        <p>
+            <b>Supports:</b> Supports an argument in response to the prompt. Documents should meet and exceed the standard set for the description point.
+        </p>
+        <p>
+            <b>Explains:</b> Explains how or why the documentś point of view, purpose, historical situation, and/or audience is relevant to an argument (does it use HAPPY?)
+        </p>
 
         <hr>
 
@@ -321,12 +331,14 @@
                 Changelog
             </div>
             <div class="collapse-content">
+                <h3 class="text-lg">1.3.0</h3>
+                <p>Adds description of criteria for Describes, Supports, and Explains in the Document section (thanks Charlie Bragg for the idea!)</p>
                 <h3 class="text-lg">1.2.2</h3>
                 <p>Add the changelog</p>
                 <h3 class="text-lg">1.2.1</h3>
-                <p>Add Complexity Point for new rubric, and the test score calculator</p>
+                <p>Add new rubric, and the test score calculator (thanks Lucas Shah for the idea!)</p>
                 <h3 class="text-lg">1.2.0</h3>
-                <p>Improve support for mobile devices</p>
+                <p>Improve support for mobile devices and add new rubric</p>
                 <h3 class="text-lg">1.1.0</h3>
                 <p>URL changed to dbq.coredoes.dev instead of old pages.dev url</p>
                 <h3 class="text-lg">1.0.0</h3>
