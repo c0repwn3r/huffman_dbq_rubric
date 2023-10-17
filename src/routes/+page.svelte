@@ -70,7 +70,7 @@
 </script>
 
 <div class="flex justify-center h-screen space-y-5">
-    <div class="mt-2 p-4 w-1/2 card bg-base-200/50 text-center space-y-2 block h-fit">
+    <div class="mt-2 w-3/4 p-4 card bg-base-200/50 text-center space-y-2 block h-fit">
         <h1 class="text-3xl font-bold">
             Huffman History DBQ Rubric Checklist!
         </h1>
@@ -110,7 +110,7 @@
             Documents
         </h2>
 
-        <table class="table">
+        <table class="table table-fixed">
             <thead>
             <tr>
                 <th>Doc #</th>
@@ -123,7 +123,7 @@
 
             {#each [0, 1, 2, 3, 4, 5, 6] as val}
                 <tr>
-                    <td><input type="number" bind:value={documents[val].num} /></td>
+                    <td><input type="number" class="input w-full" bind:value={documents[val].num} /></td>
                     <td><input type="checkbox" class="checkbox" class:checkbox-error={d < 3} class:checkbox-success={d >= 3} bind:checked={documents[val].describes} /></td>
                     <td><input type="checkbox" class="checkbox" class:checkbox-error={s < 6} class:checkbox-success={s >= 6} bind:checked={documents[val].supports} /></td>
                     <td><input type="checkbox" class="checkbox" class:checkbox-error={e < 3} class:checkbox-success={e >= 3} bind:checked={documents[val].explains} /></td>
