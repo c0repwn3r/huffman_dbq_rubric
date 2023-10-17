@@ -129,8 +129,8 @@
         <p>Checklist with the DBQ rubrics so you can grade yourself on DBQs you write. Supports both the old rubric (Huff's rubric) and the new rubric (used for AP Exams). Also includes a test score calculator so you can figure out what your total test score will be.</p>
 
         <i>To use the new rubric (the one for the AP exam), scroll to the bottom of the page</i>
-
-        <i>Version 1.2.0 - by Tyler/@coredoesdev</i>
+        <br>
+        <i>Version 1.2.1 - by Tyler/@coredoesdev</i>
 
         <hr>
 
@@ -308,6 +308,8 @@
                 <input type="checkbox" class="toggle" bind:checked={new_rubric} />
             </label>
         </div>
+
+        <i>Switching rubrics will reset scores for the complexity point. All other scores will remain unaffected.</i>
     </div>
 </div>
 
