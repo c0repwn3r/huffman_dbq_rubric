@@ -118,6 +118,10 @@
     let curve = 0;
 </script>
 
+<svelte:head>
+    <title>DBQ Checklist!</title>
+</svelte:head>
+
 <div class="flex justify-center h-screen space-y-5">
     <div class="mt-2 w-3/4 p-4 card bg-base-200/50 text-center space-y-2 block h-fit">
         <h1 class="text-3xl font-bold">
@@ -130,7 +134,7 @@
 
         <i>To use the new rubric (the one for the AP exam), scroll to the bottom of the page</i>
         <br>
-        <i>Version 1.2.1 - by Tyler/@coredoesdev</i>
+        <i>Version 1.2.2 - by Tyler/@coredoesdev</i>
 
         <hr>
 
@@ -310,6 +314,25 @@
         </div>
 
         <i>Switching rubrics will reset scores for the complexity point. All other scores will remain unaffected.</i>
+
+        <div class="collapse collapse-arrow bg-base-200">
+            <input type="checkbox" name="changelog" />
+            <div class="collapse-title text-xl font-medium">
+                Changelog
+            </div>
+            <div class="collapse-content">
+                <h3 class="text-lg">1.2.2</h3>
+                <p>Add the changelog</p>
+                <h3 class="text-lg">1.2.1</h3>
+                <p>Add Complexity Point for new rubric, and the test score calculator</p>
+                <h3 class="text-lg">1.2.0</h3>
+                <p>Improve support for mobile devices</p>
+                <h3 class="text-lg">1.1.0</h3>
+                <p>URL changed to dbq.coredoes.dev instead of old pages.dev url</p>
+                <h3 class="text-lg">1.0.0</h3>
+                <p>Initial release</p>
+            </div>
+        </div>
     </div>
 </div>
 
