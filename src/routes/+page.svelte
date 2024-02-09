@@ -332,11 +332,11 @@
             </div>
             <div class="collapse-content">
                 <h3 class="text-lg">1.3.0</h3>
-                <p>Adds description of criteria for Describes, Supports, and Explains in the Document section (thanks Charlie Bragg for the idea!)</p>
+                <p>Adds description of criteria for Describes, Supports, and Explains in the Document section</p>
                 <h3 class="text-lg">1.2.2</h3>
                 <p>Add the changelog</p>
                 <h3 class="text-lg">1.2.1</h3>
-                <p>Add new rubric, and the test score calculator (thanks Lucas Shah for the idea!)</p>
+                <p>Add new rubric, and the test score calculator</p>
                 <h3 class="text-lg">1.2.0</h3>
                 <p>Improve support for mobile devices and add new rubric</p>
                 <h3 class="text-lg">1.1.0</h3>
