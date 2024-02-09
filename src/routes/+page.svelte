@@ -134,7 +134,7 @@
 
         <i>To use the new rubric (the one for the AP exam), scroll to the bottom of the page</i>
         <br>
-        <i>Version 1.3.0 - by Tyler/@coredoesdev</i>
+        <i>Version 1.3.0 - by @coredoesdev</i>
 
         <hr>
 
